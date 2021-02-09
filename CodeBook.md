@@ -3042,7 +3042,7 @@ Aggregated Mean Value Grouped By Subject and Activity For Frequency Gyroscope Je
 
 ### Angle.Time.Acceleration.Mean.Gravity {#Angle_Time_Acceleration_Mean_Gravity .tabset}
 
-Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value.
+Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value.
 
 #### Distribution {#Angle_Time_Acceleration_Mean_Gravity_distribution}
 
@@ -3052,9 +3052,9 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleratio
 
 #### Summary statistics {#Angle_Time_Acceleration_Mean_Gravity_summary}
 
-|name                                 |label                                                                                                                                                                                                                                                                                                                                         |data_type | n_missing| complete_rate|min   |median |max  |      mean|        sd|hist  |
-|:------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|---------:|---------:|:-----|
-|Angle.Time.Acceleration.Mean.Gravity |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value. |numeric   |         0|             1|-0.16 |0.0079 |0.13 | 0.0065557| 0.0396044|▁▁▇▇▁ |
+|name                                 |label                                                                                                                                                                                                                                                                                                                                          |data_type | n_missing| complete_rate|min   |median |max  |      mean|        sd|hist  |
+|:------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|---------:|---------:|:-----|
+|Angle.Time.Acceleration.Mean.Gravity |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value. |numeric   |         0|             1|-0.16 |0.0079 |0.13 | 0.0065557| 0.0396044|▁▁▇▇▁ |
 
 
 
@@ -3077,7 +3077,7 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleratio
 
 ### Angle.Time.Acceleration.Jerk.Mean.Gravity.Mean {#Angle_Time_Acceleration_Jerk_Mean_Gravity_Mean .tabset}
 
-Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.
+Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.
 
 #### Distribution {#Angle_Time_Acceleration_Jerk_Mean_Gravity_Mean_distribution}
 
@@ -3087,9 +3087,9 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleratio
 
 #### Summary statistics {#Angle_Time_Acceleration_Jerk_Mean_Gravity_Mean_summary}
 
-|name                                           |label                                                                                                                                                                                                                                                                                                                                                                                                      |data_type | n_missing| complete_rate|min   |median |max |      mean|        sd|hist  |
-|:----------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:---|---------:|---------:|:-----|
-|Angle.Time.Acceleration.Jerk.Mean.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value. |numeric   |         0|             1|-0.12 |0.0031 |0.2 | 0.0006439| 0.0427632|▂▇▆▁▁ |
+|name                                           |label                                                                                                                                                                                                                                                                                                                                                                                                       |data_type | n_missing| complete_rate|min   |median |max |      mean|        sd|hist  |
+|:----------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:---|---------:|---------:|:-----|
+|Angle.Time.Acceleration.Jerk.Mean.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value. |numeric   |         0|             1|-0.12 |0.0031 |0.2 | 0.0006439| 0.0427632|▂▇▆▁▁ |
 
 
 
@@ -3112,7 +3112,7 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleratio
 
 ### Angle.Time.Gyroscope.Mean.Gravity.Mean {#Angle_Time_Gyroscope_Mean_Gravity_Mean .tabset}
 
-Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value.
+Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value.
 
 #### Distribution {#Angle_Time_Gyroscope_Mean_Gravity_Mean_distribution}
 
@@ -3122,9 +3122,9 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope M
 
 #### Summary statistics {#Angle_Time_Gyroscope_Mean_Gravity_Mean_summary}
 
-|name                                   |label                                                                                                                                                                                                                                                                                                                                            |data_type | n_missing| complete_rate|min   |median |max  |      mean|        sd|hist  |
-|:--------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|---------:|---------:|:-----|
-|Angle.Time.Gyroscope.Mean.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value. |numeric   |         0|             1|-0.39 |0.021  |0.44 | 0.0219317| 0.1401276|▁▁▇▁▁ |
+|name                                   |label                                                                                                                                                                                                                                                                                                                                             |data_type | n_missing| complete_rate|min   |median |max  |      mean|        sd|hist  |
+|:--------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|---------:|---------:|:-----|
+|Angle.Time.Gyroscope.Mean.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value. |numeric   |         0|             1|-0.39 |0.021  |0.44 | 0.0219317| 0.1401276|▁▁▇▁▁ |
 
 
 
@@ -3147,7 +3147,7 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope M
 
 ### Angle.Time.Gyroscope.Jerk.Mean.Gravity.Mean {#Angle_Time_Gyroscope_Jerk_Mean_Gravity_Mean .tabset}
 
-Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.
+Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.
 
 #### Distribution {#Angle_Time_Gyroscope_Jerk_Mean_Gravity_Mean_distribution}
 
@@ -3157,9 +3157,9 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope J
 
 #### Summary statistics {#Angle_Time_Gyroscope_Jerk_Mean_Gravity_Mean_summary}
 
-|name                                        |label                                                                                                                                                                                                                                                                                                                                                                                                    |data_type | n_missing| complete_rate|min   |median |max  |       mean|        sd|hist  |
-|:-------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|----------:|---------:|:-----|
-|Angle.Time.Gyroscope.Jerk.Mean.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value. |numeric   |         0|             1|-0.22 |-0.016 |0.18 | -0.0113732| 0.0729629|▁▃▇▅▁ |
+|name                                        |label                                                                                                                                                                                                                                                                                                                                                                                                     |data_type | n_missing| complete_rate|min   |median |max  |       mean|        sd|hist  |
+|:-------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|----------:|---------:|:-----|
+|Angle.Time.Gyroscope.Jerk.Mean.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value. |numeric   |         0|             1|-0.22 |-0.016 |0.18 | -0.0113732| 0.0729629|▁▃▇▅▁ |
 
 
 
@@ -3182,7 +3182,7 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope J
 
 ### Angle.X.Gravity.Mean {#Angle_X_Gravity_Mean .tabset}
 
-Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value.
+Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value.
 
 #### Distribution {#Angle_X_Gravity_Mean_distribution}
 
@@ -3192,9 +3192,9 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean: 
 
 #### Summary statistics {#Angle_X_Gravity_Mean_summary}
 
-|name                 |label                                                                                                                                                                                                                                      |data_type | n_missing| complete_rate|min   |median |max  |       mean|       sd|hist  |
-|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|----------:|--------:|:-----|
-|Angle.X.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value. |numeric   |         0|             1|-0.95 |-0.74  |0.74 | -0.5243065| 0.481228|▇▂▁▁▂ |
+|name                 |label                                                                                                                                                                                                                                       |data_type | n_missing| complete_rate|min   |median |max  |       mean|       sd|hist  |
+|:--------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|----------:|--------:|:-----|
+|Angle.X.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value. |numeric   |         0|             1|-0.95 |-0.74  |0.74 | -0.5243065| 0.481228|▇▂▁▁▂ |
 
 
 
@@ -3217,7 +3217,7 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean: 
 
 ### Angle.Y.Gravity.Mean {#Angle_Y_Gravity_Mean .tabset}
 
-Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value.
+Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value.
 
 #### Distribution {#Angle_Y_Gravity_Mean_distribution}
 
@@ -3227,9 +3227,9 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean: 
 
 #### Summary statistics {#Angle_Y_Gravity_Mean_summary}
 
-|name                 |label                                                                                                                                                                                                                                      |data_type | n_missing| complete_rate|min   |median |max  |      mean|        sd|hist  |
-|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|---------:|---------:|:-----|
-|Angle.Y.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value. |numeric   |         0|             1|-0.87 |0.17   |0.42 | 0.0786534| 0.2784784|▁▁▁▅▇ |
+|name                 |label                                                                                                                                                                                                                                       |data_type | n_missing| complete_rate|min   |median |max  |      mean|        sd|hist  |
+|:--------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|---------:|---------:|:-----|
+|Angle.Y.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value. |numeric   |         0|             1|-0.87 |0.17   |0.42 | 0.0786534| 0.2784784|▁▁▁▅▇ |
 
 
 
@@ -3252,7 +3252,7 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean: 
 
 ### Angle.Z.Gravity.Mean {#Angle_Z_Gravity_Mean .tabset}
 
-Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value.
+Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value.
 
 #### Distribution {#Angle_Z_Gravity_Mean_distribution}
 
@@ -3262,9 +3262,9 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean: 
 
 #### Summary statistics {#Angle_Z_Gravity_Mean_summary}
 
-|name                 |label                                                                                                                                                                                                                                     |data_type | n_missing| complete_rate|min   |median |max  |       mean|        sd|hist  |
-|:--------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|----------:|---------:|:-----|
-|Angle.Z.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value. |numeric   |         0|             1|-0.87 |0.0051 |0.39 | -0.0404362| 0.2308332|▁▁▁▇▂ |
+|name                 |label                                                                                                                                                                                                                                      |data_type | n_missing| complete_rate|min   |median |max  |       mean|        sd|hist  |
+|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|---------:|-------------:|:-----|:------|:----|----------:|---------:|:-----|
+|Angle.Z.Gravity.Mean |Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value. |numeric   |         0|             1|-0.87 |0.0051 |0.39 | -0.0404362| 0.2308332|▁▁▁▇▂ |
 
 
 ## Missingness report
@@ -3357,13 +3357,13 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean: 
 |<a href="#Frequency_Gyroscope_Jerk_Magnitude_Mean">Frequency.Gyroscope.Jerk.Magnitude.Mean</a>                                   |Aggregated Mean Value Grouped By Subject and Activity For Frequency Gyroscope Jerk Magnitude Mean:  Labels,  , Frequency = Fast Fourier Transform (FFT) was applied to frequency domain signals in hertz, Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Magnitude = The magnitude measured in the Euclidean norm, Mean = Mean of value.                                             |numeric   |         0|             1|       NA|    NA|-0.998 |-0.8779 |0.1466  | -0.7563853| 0.2628722|         NA|▇▅▂▁▁ |
 |<a href="#Frequency_Gyroscope_Jerk_Magnitude_Standard_Deviation">Frequency.Gyroscope.Jerk.Magnitude.Standard.Deviation</a>       |Aggregated Mean Value Grouped By Subject and Activity For Frequency Gyroscope Jerk Magnitude Standard Deviation:  Labels,  , Frequency = Fast Fourier Transform (FFT) was applied to frequency domain signals in hertz, Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Magnitude = The magnitude measured in the Euclidean norm, Standard Deviation = Standard deviation of value.   |numeric   |         0|             1|       NA|    NA|-0.998 |-0.8941 |0.2878  | -0.7715171| 0.2504248|         NA|▇▃▁▁▁ |
 |<a href="#Frequency_Gyroscope_Jerk_Magnitude_Mean_Frequency">Frequency.Gyroscope.Jerk.Magnitude.Mean.Frequency</a>               |Aggregated Mean Value Grouped By Subject and Activity For Frequency Gyroscope Jerk Magnitude Mean Frequency:  Labels,  , Frequency = Fast Fourier Transform (FFT) was applied to frequency domain signals in hertz, Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Magnitude = The magnitude measured in the Euclidean norm, Mean = Mean of value.                                   |numeric   |         0|             1|       NA|    NA|-0.183 |0.1116  |0.4263  |  0.1259225| 0.1083232|         NA|▁▅▇▆▁ |
-|<a href="#Angle_Time_Acceleration_Mean_Gravity">Angle.Time.Acceleration.Mean.Gravity</a>                                         |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value.                                                                                                        |numeric   |         0|             1|       NA|    NA|-0.163 |0.0079  |0.1292  |  0.0065557| 0.0396044|         NA|▁▁▇▇▁ |
-|<a href="#Angle_Time_Acceleration_Jerk_Mean_Gravity_Mean">Angle.Time.Acceleration.Jerk.Mean.Gravity.Mean</a>                     |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.                                           |numeric   |         0|             1|       NA|    NA|-0.121 |0.0031  |0.2033  |  0.0006439| 0.0427632|         NA|▂▇▆▁▁ |
-|<a href="#Angle_Time_Gyroscope_Mean_Gravity_Mean">Angle.Time.Gyroscope.Mean.Gravity.Mean</a>                                     |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value.                                                                                                     |numeric   |         0|             1|       NA|    NA|-0.389 |0.0209  |0.4441  |  0.0219317| 0.1401276|         NA|▁▁▇▁▁ |
-|<a href="#Angle_Time_Gyroscope_Jerk_Mean_Gravity_Mean">Angle.Time.Gyroscope.Jerk.Mean.Gravity.Mean</a>                           |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.                                             |numeric   |         0|             1|       NA|    NA|-0.224 |-0.0160 |0.1824  | -0.0113732| 0.0729629|         NA|▁▃▇▅▁ |
-|<a href="#Angle_X_Gravity_Mean">Angle.X.Gravity.Mean</a>                                                                         |Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value.                                                                                                                                                                                                           |numeric   |         0|             1|       NA|    NA|-0.947 |-0.7377 |0.7378  | -0.5243065| 0.4812280|         NA|▇▂▁▁▂ |
-|<a href="#Angle_Y_Gravity_Mean">Angle.Y.Gravity.Mean</a>                                                                         |Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value.                                                                                                                                                                                                           |numeric   |         0|             1|       NA|    NA|-0.875 |0.1714  |0.4248  |  0.0786534| 0.2784784|         NA|▁▁▁▅▇ |
-|<a href="#Angle_Z_Gravity_Mean">Angle.Z.Gravity.Mean</a>                                                                         |Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value.                                                                                                                                                                                                            |numeric   |         0|             1|       NA|    NA|-0.874 |0.0051  |0.3904  | -0.0404362| 0.2308332|         NA|▁▁▁▇▂ |
+|<a href="#Angle_Time_Acceleration_Mean_Gravity">Angle.Time.Acceleration.Mean.Gravity</a>                                         |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value.                                                                                                       |numeric   |         0|             1|       NA|    NA|-0.163 |0.0079  |0.1292  |  0.0065557| 0.0396044|         NA|▁▁▇▇▁ |
+|<a href="#Angle_Time_Acceleration_Jerk_Mean_Gravity_Mean">Angle.Time.Acceleration.Jerk.Mean.Gravity.Mean</a>                     |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.                                          |numeric   |         0|             1|       NA|    NA|-0.121 |0.0031  |0.2033  |  0.0006439| 0.0427632|         NA|▂▇▆▁▁ |
+|<a href="#Angle_Time_Gyroscope_Mean_Gravity_Mean">Angle.Time.Gyroscope.Mean.Gravity.Mean</a>                                     |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value.                                                                                                    |numeric   |         0|             1|       NA|    NA|-0.389 |0.0209  |0.4441  |  0.0219317| 0.1401276|         NA|▁▁▇▁▁ |
+|<a href="#Angle_Time_Gyroscope_Jerk_Mean_Gravity_Mean">Angle.Time.Gyroscope.Jerk.Mean.Gravity.Mean</a>                           |Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.                                            |numeric   |         0|             1|       NA|    NA|-0.224 |-0.0160 |0.1824  | -0.0113732| 0.0729629|         NA|▁▃▇▅▁ |
+|<a href="#Angle_X_Gravity_Mean">Angle.X.Gravity.Mean</a>                                                                         |Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value.                                                                                                                                                                                                          |numeric   |         0|             1|       NA|    NA|-0.947 |-0.7377 |0.7378  | -0.5243065| 0.4812280|         NA|▇▂▁▁▂ |
+|<a href="#Angle_Y_Gravity_Mean">Angle.Y.Gravity.Mean</a>                                                                         |Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value.                                                                                                                                                                                                          |numeric   |         0|             1|       NA|    NA|-0.875 |0.1714  |0.4248  |  0.0786534| 0.2784784|         NA|▁▁▁▅▇ |
+|<a href="#Angle_Z_Gravity_Mean">Angle.Z.Gravity.Mean</a>                                                                         |Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value.                                                                                                                                                                                                           |numeric   |         0|             1|       NA|    NA|-0.874 |0.0051  |0.3904  | -0.0404362| 0.2308332|         NA|▁▁▁▇▂ |
 
 
 <script type="application/ld+json">
@@ -3786,37 +3786,37 @@ Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean: 
     },
     {
       "name": "Angle.Time.Acceleration.Mean.Gravity",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Time.Acceleration.Jerk.Mean.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Time.Gyroscope.Mean.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Time.Gyroscope.Jerk.Mean.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.X.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Y.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Z.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value.",
       "@type": "propertyValue"
     }
   ]
@@ -4247,37 +4247,37 @@ publicly on the web.
     },
     {
       "name": "Angle.Time.Acceleration.Mean.Gravity",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Mean Gravity:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Time.Acceleration.Jerk.Mean.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Acceleration Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Acceleration = Acceleration in standard gravity units 'g', Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Time.Gyroscope.Mean.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Time.Gyroscope.Jerk.Mean.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Time Gyroscope Jerk Mean Gravity Mean:  Labels,  Time = Time Domain Signal, captured at a constant rate of 50 Hz, Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Gyroscope = The gyroscope sensor signals in radians/second, Jerk = Jerk signals in standard gravity units 'g', Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.X.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle X Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', X = Triaxial signals in the X direction, Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Y.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Y Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Y = Triaxial signals in the Y direction, Mean = Mean of value.",
       "@type": "propertyValue"
     },
     {
       "name": "Angle.Z.Gravity.Mean",
-      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between to vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value.",
+      "description": "Aggregated Mean Value Grouped By Subject and Activity For Angle Z Gravity Mean:  Labels,  Angle = Angle between two vectors, Gravity = Sensor gravity in standard units 'g', Z = Triaxialsignals in the Z direction, Mean = Mean of value.",
       "@type": "propertyValue"
     }
   ]

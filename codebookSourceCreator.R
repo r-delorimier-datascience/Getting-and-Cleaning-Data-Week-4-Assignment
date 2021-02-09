@@ -145,7 +145,7 @@ create_explanation_from_column_name <- function(col_name) {
     description_string <- paste(description_string, val_decription, sep=", ")
   }
   if (regexpr("Angle", base_column_name) != -1) {
-    val_decription <- "Angle = Angle between to vectors"
+    val_decription <- "Angle = Angle between two vectors"
     if(nchar(description_string) > 0) {
       description_string <- paste(description_string, val_decription, sep=", ")
     } else {

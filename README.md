@@ -1,21 +1,22 @@
 ---
 title: "Course Project For Coursera Class, Getting and Cleaning Data  "
 author: "Robert de Lorimier"
-date: "02/07/2021"
+date: "02/09/2021"
 ---
 
 # Overview
 
-The data has been unified for a "tidy" data set, and contains the standard deviation and means values for the accelerometer feature measurements, aggregated by subject and activity. The original data was collect for "Human Activity Recognition Using Smartphones Dataset", collected by www.srmartlab.ws. A copy of the data used is found in folder sample_data. See "Original Description" below for more details, extracted from "sample_data/getdata_projectfiles_UCI_HAR_Dataset/UCI HAR Dataset/README.txt"
+The data has been unified for a "tidy" data set, and contains the standard deviation and means values for the accelerometer feature measurements, aggregated by subject and activity. The original data was collect for "Human Activity Recognition Using Smartphones Dataset", collected by www.srmartlab.ws. A copy of the data used is found in folder, sample_data. See "Original Description" below for more details, extracted from "sample_data/getdata_projectfiles_UCI_HAR_Dataset/UCI HAR Dataset/README.txt"
 
 ## References
 
 - Source Data Set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+- Sample Data Set: Unzipped copy of above url at ./sample_data
 - Explanation of Data: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphone
 
 # Data Creation and Replication
 
-Below is a description of how to run the script that will create the data set, and also a description of the logical steps used to 
+Below is a description of how to run the script that will create the data set, and also a description of the logical steps used to create the tidy set.
 
 ## Data Creation Steps
 
@@ -29,29 +30,31 @@ In order to run the script that create the tidy data set, these libraries need t
 
 ### Running the Script
 
-This project includes an R script called run_analysis.R that is a script used to create the tidy datasets. From the project folder in the R command prompt, run:
+This project includes an R script called run_analysis.R that is used to create the tidy dataset, tidydata.txt. An additional unaggregated version of the data is created, unaggregated_tidyset.txt. From the project folder in the R command prompt, run:
 
 ```source("run_analysis.R")```
 
-This will create the file tidydata.txt.
+This will create the file tidydata.txt (and unaggregated_tidydata.txt).
   
-## Data Creation Explanation
+## Data Creation Steps
 
 The creation of the data set goes through several transformation operations to create the final set. These set of steps illustrate what operations are performed:
 
-1. Download and extract data from remote site.
-2. Combine subject column data, subject_train.txt and subject_test.txt, via rbind.
-3. Combine activity column id data, y_train.txt and y_test.txt, via rbind.
-4. Create activity name column from activity_labels.txt via lookup and activity column id data.
-5. Combine subject and activity columns using cbind.
-6. Create columns names datatable with indexes and filter by standard deviation and means columns.
-7. Format column names to be more readable.
-8. Combine feature result data, X_train.txt and X_test.txt, via rbind.
-9. Filter only standard deviation and mean columns from feature result data.
-10. Add column names to feature result data.
-11. Add activity name column and subject column to feature result data.
-12. Aggregate feature result data by subject and activity, and order.
-13. Write out tidy dataset, tidydata.txt
+NOTE: value "./" denotes the base folder location of the project for those unfamiliar with unix style path names.
+
+1. Download and extract data from remote site to folder, "./data"
+2. Combine subject column data tables created from, "./data/UCI HAR Dataset/train/subject_train.txt" and "./data/UCI HAR Dataset/test/subject_test.txt", via rbind to create unified subject column data table.
+3. Combine activity column id data tables created from, "./data/UCI HAR Dataset/train/y_train.txt" and "data/UCI HAR Dataset/test/y_test.txt", via rbind to create unified activity id column data table.
+4. Create activity name column data table via created lookup data table, from source file activity_labels.txt, and use to match id to activity label.
+5. Combine subject and activity name column data tables using cbind.
+6. Create feature column header datatable from file, "./data/UCI HAR Dataset/features.txt". Data table contains both header labels and column indexes. Filter header names to only columns with standard deviation and mean values.
+7. Format column header datatable labels to be more readable and syntactically valid. (See ?make.names in R)
+8. Combine features data tables created from, "./data/UCI HAR Dataset/train/X_train.txt" and "./data/UCI HAR Dataset/test/X_test.txt", via rbind to create unified features data table.
+9. Filter only standard deviation and mean columns from features data table, using column header data table's index column.
+10. Add column header labels to feature result data table as column names, using the column header data table's label column.
+11. Add combined activity name and subject column data table columns to features data via cbind, (and write out unaggregated tidy data set file, ./unaggregated_tidydata.txt).
+12. Aggregate feature result data by subject and activity, and order by subject and activity.
+13. Write out tidy data set file, ./tidydata.txt
 
 ## Background
 

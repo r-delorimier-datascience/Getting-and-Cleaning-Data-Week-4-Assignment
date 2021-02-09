@@ -6,7 +6,7 @@
 # 1. Download and extract data
 # 2. Combine subject column data, subject_train.txt and subject_test.txt, via rbind
 # 3. Combine activity column id data, y_train.txt and y_test.txt, via rbind
-# 4. Create activity name column from activity_labels.txt via lookup and activity column id data
+# 4. Create activity name column data table via created lookup data table, from source file activity_labels.txt, to match id to label
 # 5. Combine subject and activity columns using cbind
 # 6. Create columns names datatable with indexes and filter by standard deviation and means columns
 # 7. Format column names to be more readable
@@ -55,8 +55,12 @@ names(activity_id_column_table) <- c("activity_id")
 
 ## STEP 4, CREATE COMBINED ACTIVITY NAME COLUMN FROM ACTIVITY ID COLUMN WITH LOOKUP
 
+activity_lookup_table <- fread("./data/UCI HAR Dataset/activity_labels.txt")
+names(activity_lookup_table) <- c("index", "label")
 activity_table <- activity_id_column_table
-activity_labels_set <- c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
+#activity_labels_set <- c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
+activity_labels_set <- activity_lookup_table$label
+class(activity_labels_set)
 activity_table$Activity <- activity_labels_set[activity_table$activity_id]
 activity_table$activity_id = NULL
 
@@ -122,9 +126,9 @@ names(data_set_table) <- feature_column_names
 data_set_table <- cbind(subject_activity_col_set_table, data_set_table)
 data_set_table <- data_set_table[order(Subject, Activity)]
 
-## UNAGGREGATED DATA TEST
+## STEP 11A, WRITE THE UNAGGREGATED DATA TEST
 
-write.table(data_set_table, file = "unaggredated_tidydata.txt", row.name=FALSE, sep="\t")
+write.table(data_set_table, file = "unaggregated_tidydata.txt", row.name=FALSE, sep="\t")
 
 ## STEP 12, AGGREGATE THE FEATURE SET BY SUBJECT AND ACTIVITY
 
