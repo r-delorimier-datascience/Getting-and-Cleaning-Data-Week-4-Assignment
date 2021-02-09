@@ -1,5 +1,5 @@
 ---
-title: "Codebook Grouped"
+title: "Codebook"
 always_allow_html: true
 output:
   html_document:
@@ -8,15 +8,16 @@ output:
     toc_depth: 4
     toc_float: true
     code_folding: 'hide'
-    self_contained: true
-    fig_width: 3.5
-    fig_height: 2.5
+    self_contained: false
+    fig_width: 10
+    fig_height: 7
+    fig_caption: false
   pdf_document:
     toc: yes
     toc_depth: 4
     latex_engine: xelatex
-    fig_width: 3.5
-    fig_height: 2.5
+    fig_width: 10
+    fig_height: 7
 ---
 
 Set up Code book options
